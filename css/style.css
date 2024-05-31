@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.time-slot {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+    padding: 10px 0;
+}
+
+.time {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.event {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.event.a {
+    background-color: #8E44AD;
+    color: white;
+}
+
+.event.b {
+    background-color: #E74C3C;
+    color: white;
+}
+
+.event.c {
+    background-color: #27AE60;
+    color: white;
+}
